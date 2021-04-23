@@ -29,7 +29,7 @@ addUser.addEventListener("click", async () => {
     user.email
   );
   appState.push(classUser);
-  
+
   domRenderer(appState);
 });
 
@@ -44,7 +44,7 @@ const domRenderer = (stateArr) => {
     <li>${userobj.email}</li>
     </ol>
  </div>`;
-    
+
     userlist.appendChild(userele);
   });
 };
